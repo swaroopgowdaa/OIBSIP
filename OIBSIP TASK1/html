@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Your Main Headline</h2>
+        <p>A brief description or tagline.</p>
+        <button>Call to Action</button>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Details about feature 1.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Details about feature 2.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Details about feature 3.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about your company or project.</p>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"This is a testimonial from a satisfied customer."</p>
+            <cite>- Customer Name</cite>
+        </blockquote>
+        <blockquote>
+            <p>"Another testimonial."</p>
+            <cite>- Another Customer</cite>
+        </blockquote>
+    </section>
+    <footer>
+        <p>Contact us: email@example.com</p>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+</body>
+</html>
